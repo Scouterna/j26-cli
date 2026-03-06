@@ -1,5 +1,4 @@
-import { access } from "node:fs/promises";
-import { readFile } from "node:fs/promises";
+import { access, readFile } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import { type } from "arktype";
 import yaml from "js-yaml";
