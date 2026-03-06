@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+
+# Oclif manifest (generated at pack time)
+oclif.manifest.json
+
+# --- j26-cli generated files ---
+
+# Local developer configuration — contains personal service selections.
+# Each developer maintains their own copy; do NOT commit this.
+.j26.local.yaml
+
+# Generated Caddyfile and docker-compose.yml produced by `j26 up`.
+# These are derived from services.yaml + .j26.local.yaml and should not be committed.
+# The Caddy root CA certificate (produced by `j26 trust-ca`) is also stored here.
+.j26/

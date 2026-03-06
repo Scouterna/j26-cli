@@ -1,0 +1,54 @@
+{
+  "name": "j26-cli",
+  "version": "0.1.0",
+  "description": "Local development environment CLI for J26 microservices",
+  "author": "Scouterna",
+  "license": "MIT",
+  "keywords": ["j26", "jamboree26", "cli", "microservices", "local-dev"],
+  "repository": "https://github.com/Scouterna/j26-cli",
+  "type": "module",
+  "bin": {
+    "j26": "./bin/run.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "files": [
+    "/bin/run.ts",
+    "/src"
+  ],
+  "dependencies": {
+    "@inquirer/prompts": "^7.0.0",
+    "@oclif/core": "^4.0.0",
+    "@oclif/plugin-help": "^6.0.0",
+    "@oclif/plugin-not-found": "^3.0.0",
+    "arktype": "^2.2.0",
+    "js-yaml": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.0"
+  },
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "oclif": {
+    "bin": "j26",
+    "dirname": "j26",
+    "commands": {
+      "strategy": "pattern",
+      "target": "./src/commands",
+      "globPatterns": [
+        "**/*.ts",
+        "!**/*.d.ts",
+        "!**/*.test.ts"
+      ]
+    },
+    "plugins": [
+      "@oclif/plugin-help",
+      "@oclif/plugin-not-found"
+    ],
+    "topicSeparator": " "
+  }
+}

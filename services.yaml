@@ -1,0 +1,41 @@
+# Example services manifest for j26-cli.
+#
+# Each entry describes a microservice available in the J26 platform.
+# Developers use `j26 config` to choose how each service should run:
+#   - cloud   → traffic is proxied to the live cloud URL
+#   - docker  → the Docker image is pulled and run locally
+#   - local   → traffic is forwarded to a server running on your machine (e.g. `npm run dev`)
+#   - skip    → service is excluded entirely (no route generated)
+#
+# Fields:
+#   name             (required) — identifier used as the Docker Compose service name
+#   path             (required) — URL path prefix on https://local.j26.se, must start with /
+#   cloudUrl         (required) — full HTTPS URL of the cloud-hosted service
+#   dockerImage      (required) — Docker image to run when mode = "docker"
+#   port             (required) — port the service listens on inside its container
+#   rewritePath      (optional, default: true)
+#                      true  → strip the path prefix before forwarding (e.g. /auth/login → /login)
+#                      false → forward the full path unchanged (e.g. /api/v1/users → /api/v1/users)
+#   env              (optional) — base environment variables passed to the container (mode = "docker")
+
+services:
+  - name: auth
+    path: /auth
+    cloudUrl: https://app.dev.j26.se/auth
+    dockerImage: ghcr.io/scouterna/j26-auth:latest
+    port: 80
+    # rewritePath defaults to true — /auth/login reaches the container as /login
+
+  - name: signupinfo
+    path: /_services/signupinfo
+    cloudUrl: https://app.dev.j26.se/_services/signupinfo
+    dockerImage: ghcr.io/scouterna/j26-signupinfo:latest
+    port: 8000
+    rewritePath: false
+
+  - name: app
+    path: /
+    cloudUrl: https://app.dev.j26.se/
+    dockerImage: ghcr.io/scouterna/j26-app:latest
+    port: 3000
+    rewritePath: false

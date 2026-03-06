@@ -1,0 +1,16 @@
+# Development entry point — not needed in the published package
+bin/dev.ts
+
+# Local developer files
+.j26/
+.j26.local.yaml
+
+# Project-specific services manifest — not part of the package itself
+services.yaml
+
+# Oclif generated manifest
+oclif.manifest.json
+
+# Misc
+.git/
+node_modules/
