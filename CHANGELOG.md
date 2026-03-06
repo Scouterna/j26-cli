@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/Scouterna/j26-cli/compare/v1.0.1...v1.0.2) (2026-03-06)
+
+
+### Bug Fixes
+
+* use bundled services.yaml ([a1980e2](https://github.com/Scouterna/j26-cli/commit/a1980e270075e83d1961540eebee0dc99fb93579))
+
 ## [1.0.1](https://github.com/Scouterna/j26-cli/compare/v1.0.0...v1.0.1) (2026-03-06)
 
 
