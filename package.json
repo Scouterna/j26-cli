@@ -20,7 +20,7 @@
 		"j26": "./dist/bin/run.js"
 	},
 	"scripts": {
-		"dev": "tsx bin/dev.ts",
+		"dev": "node dist/bin/dev.js",
 		"build": "tsc",
 		"typecheck": "tsc --noEmit",
 		"lint": "biome check",
@@ -42,7 +42,6 @@
 		"@biomejs/biome": "2.4.6",
 		"@types/js-yaml": "^4.0.9",
 		"@types/node": "^24.0.0",
-		"tsx": "^4.21.0",
 		"typescript": "^5.6.0"
 	},
 	"engines": {
@@ -64,6 +63,9 @@
 			"@oclif/plugin-help",
 			"@oclif/plugin-not-found"
 		],
+		"hooks": {
+			"finally": "./dist/src/hooks/finally.js"
+		},
 		"topicSeparator": " "
 	}
 }

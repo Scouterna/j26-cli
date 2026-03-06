@@ -15,6 +15,7 @@ export default class Down extends Command {
 	static examples = ["<%= config.bin %> down"];
 
 	public async run(): Promise<void> {
+		await this.parse();
 		if (!existsSync(`${GENERATED_DIR}/docker-compose.yml`)) {
 			this.error(
 				`No ${GENERATED_DIR}/docker-compose.yml found. Run \`j26 up\` first.`,

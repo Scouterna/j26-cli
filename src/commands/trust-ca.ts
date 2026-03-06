@@ -28,6 +28,7 @@ command, import ${CERT_OUTPUT} manually via:
 	static examples = ["<%= config.bin %> trust-ca"];
 
 	public async run(): Promise<void> {
+		await this.parse();
 		if (!existsSync(`${GENERATED_DIR}/docker-compose.yml`)) {
 			this.error(
 				`No ${GENERATED_DIR}/docker-compose.yml found. Run \`j26 up\` first.`,

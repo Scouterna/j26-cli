@@ -2,7 +2,7 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { join } from "node:path";
 
 const PACKAGE_NAME = "@scouterna/j26-cli";
-const CHECK_INTERVAL_MS = 24 * 60 * 60 * 1000; // 24 hours
+const CHECK_INTERVAL_MS = 5 * 60 * 1000; // 5 minutes
 const FETCH_TIMEOUT_MS = 3000;
 const CACHE_FILE = "update-cache.json";
 
