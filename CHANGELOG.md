@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/Scouterna/j26-cli/compare/v1.0.2...v1.1.0) (2026-03-06)
+
+
+### Features
+
+* update reminder ([98cbc3c](https://github.com/Scouterna/j26-cli/commit/98cbc3c6d257cb488e3d8c61c97f30815c75909a))
+
 ## [1.0.2](https://github.com/Scouterna/j26-cli/compare/v1.0.1...v1.0.2) (2026-03-06)
 
 
