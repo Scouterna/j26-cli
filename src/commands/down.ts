@@ -2,7 +2,7 @@ import { existsSync } from "node:fs";
 
 import { Command } from "@oclif/core";
 
-import { run } from "../lib/exec.ts";
+import { run } from "../lib/exec.js";
 
 const GENERATED_DIR = ".j26";
 

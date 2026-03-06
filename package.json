@@ -17,16 +17,17 @@
 	},
 	"type": "module",
 	"bin": {
-		"j26": "./bin/run.ts"
+		"j26": "./dist/bin/run.js"
 	},
 	"scripts": {
+		"dev": "tsx bin/dev.ts",
+		"build": "tsc",
 		"typecheck": "tsc --noEmit",
 		"lint": "biome check",
 		"lint:fix": "biome check --write"
 	},
 	"files": [
-		"/bin/run.ts",
-		"/src"
+		"/dist"
 	],
 	"dependencies": {
 		"@inquirer/prompts": "^7.0.0",
@@ -40,6 +41,7 @@
 		"@biomejs/biome": "2.4.6",
 		"@types/js-yaml": "^4.0.9",
 		"@types/node": "^24.0.0",
+		"tsx": "^4.21.0",
 		"typescript": "^5.6.0"
 	},
 	"engines": {
@@ -50,11 +52,11 @@
 		"dirname": "j26",
 		"commands": {
 			"strategy": "pattern",
-			"target": "./src/commands",
+			"target": "./dist/src/commands",
 			"globPatterns": [
-				"**/*.ts",
+				"**/*.js",
 				"!**/*.d.ts",
-				"!**/*.test.ts"
+				"!**/*.test.js"
 			]
 		},
 		"plugins": [

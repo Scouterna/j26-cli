@@ -1,8 +1,8 @@
 import { readFile } from "node:fs/promises";
 import { type } from "arktype";
 import yaml from "js-yaml";
-import type { Manifest } from "./schemas.ts";
-import { ManifestSchema } from "./schemas.ts";
+import type { Manifest } from "./schemas.js";
+import { ManifestSchema } from "./schemas.js";
 
 export async function loadManifest(filePath: string): Promise<Manifest> {
 	let content: string;

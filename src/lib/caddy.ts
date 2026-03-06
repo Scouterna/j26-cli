@@ -1,4 +1,4 @@
-import type { ServiceWithConfig } from "./schemas.ts";
+import type { ServiceWithConfig } from "./schemas.js";
 
 const DOMAIN = "local.j26.se";
 

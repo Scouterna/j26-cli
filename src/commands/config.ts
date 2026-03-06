@@ -1,15 +1,15 @@
 import { confirm, input, Separator, select } from "@inquirer/prompts";
 
-import { BaseCommand } from "../base-command.ts";
-import { loadLocalConfig, saveLocalConfig } from "../lib/config.ts";
-import { loadManifest } from "../lib/manifest.ts";
+import { BaseCommand } from "../base-command.js";
+import { loadLocalConfig, saveLocalConfig } from "../lib/config.js";
+import { loadManifest } from "../lib/manifest.js";
 import type {
 	LocalConfig,
 	LocalOnlyService,
 	ManifestService,
 	ServiceLocalConfig,
 	ServiceMode,
-} from "../lib/schemas.ts";
+} from "../lib/schemas.js";
 
 export default class Config extends BaseCommand<typeof Config> {
 	static summary = "Configure which services to run locally";

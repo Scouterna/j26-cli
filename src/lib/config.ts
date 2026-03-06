@@ -2,8 +2,8 @@ import { existsSync } from "node:fs";
 import { readFile, writeFile } from "node:fs/promises";
 import { type } from "arktype";
 import yaml from "js-yaml";
-import type { LocalConfig } from "./schemas.ts";
-import { LocalConfigSchema } from "./schemas.ts";
+import type { LocalConfig } from "./schemas.js";
+import { LocalConfigSchema } from "./schemas.js";
 
 export const LOCAL_CONFIG_FILE = ".j26.local.yaml";
 

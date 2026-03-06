@@ -3,17 +3,17 @@ import { mkdir, writeFile } from "node:fs/promises";
 
 import { Flags } from "@oclif/core";
 
-import { BaseCommand } from "../base-command.ts";
-import { generateCaddyfile } from "../lib/caddy.ts";
-import { generateDockerCompose } from "../lib/compose.ts";
+import { BaseCommand } from "../base-command.js";
+import { generateCaddyfile } from "../lib/caddy.js";
+import { generateDockerCompose } from "../lib/compose.js";
 import {
 	LOCAL_CONFIG_FILE,
 	loadLocalConfig,
 	saveLocalConfig,
-} from "../lib/config.ts";
-import { run } from "../lib/exec.ts";
-import { loadManifest } from "../lib/manifest.ts";
-import type { ServiceWithConfig } from "../lib/schemas.ts";
+} from "../lib/config.js";
+import { run } from "../lib/exec.js";
+import { loadManifest } from "../lib/manifest.js";
+import type { ServiceWithConfig } from "../lib/schemas.js";
 
 const GENERATED_DIR = ".j26";
 

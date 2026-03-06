@@ -1,7 +1,7 @@
-import { BaseCommand } from "../base-command.ts";
-import { loadLocalConfig } from "../lib/config.ts";
-import { loadManifest } from "../lib/manifest.ts";
-import type { ServiceLocalConfig } from "../lib/schemas.ts";
+import { BaseCommand } from "../base-command.js";
+import { loadLocalConfig } from "../lib/config.js";
+import { loadManifest } from "../lib/manifest.js";
+import type { ServiceLocalConfig } from "../lib/schemas.js";
 
 interface ServiceStatus {
 	name: string;
