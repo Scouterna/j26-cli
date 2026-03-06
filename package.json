@@ -27,7 +27,8 @@
 		"lint:fix": "biome check --write"
 	},
 	"files": [
-		"/dist"
+		"/dist",
+		"/services.yaml"
 	],
 	"dependencies": {
 		"@inquirer/prompts": "^7.0.0",

@@ -5,9 +5,6 @@ bin/dev.ts
 .j26/
 .j26.local.yaml
 
-# Project-specific services manifest — not part of the package itself
-services.yaml
-
 # Oclif generated manifest
 oclif.manifest.json
 
