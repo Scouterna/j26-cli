@@ -12,6 +12,9 @@
 		"local-dev"
 	],
 	"repository": "https://github.com/Scouterna/j26-cli",
+	"publishConfig": {
+		"registry": "https://registry.npmjs.org/"
+	},
 	"type": "module",
 	"bin": {
 		"j26": "./bin/run.ts"
