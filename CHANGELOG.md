@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/Scouterna/j26-cli/compare/v1.0.0...v1.0.1) (2026-03-06)
+
+
+### Bug Fixes
+
+* compile typescript ([dfbff19](https://github.com/Scouterna/j26-cli/commit/dfbff19a5336cb08bf2fedc04c53d436d0ac2d92))
+
 # 1.0.0 (2026-03-06)
 
 
