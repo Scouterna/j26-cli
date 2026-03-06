@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/Scouterna/j26-cli/compare/v1.1.0...v1.1.1) (2026-03-06)
+
+
+### Bug Fixes
+
+* dummy update ([b18b096](https://github.com/Scouterna/j26-cli/commit/b18b09666736b5a30e01b523dc34c1c6f667327b))
+
 # [1.1.0](https://github.com/Scouterna/j26-cli/compare/v1.0.2...v1.1.0) (2026-03-06)
 
 
