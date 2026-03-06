@@ -1,4 +1,4 @@
-# j26-cli
+# @scouterna/j26-cli
 
 Local development environment CLI for J26 microservices.
 
@@ -12,7 +12,7 @@ Sets up a full local dev environment by generating a [Caddy](https://caddyserver
 ## Installation
 
 ```sh
-npm install -g j26-cli
+npm install -g @scouterna/j26-cli
 ```
 
 ## Commands
@@ -52,7 +52,7 @@ j26 down        # shut everything down
 
 ## `services.yaml`
 
-Each project that uses `j26-cli` ships a `services.yaml` manifest describing its microservices. Place it at the root of the repository and run commands with `--config path/to/services.yaml` if it's not in the current directory.
+Each project that uses `@scouterna/j26-cli` ships a `services.yaml` manifest describing its microservices. Place it at the root of the repository and run commands with `--config path/to/services.yaml` if it's not in the current directory.
 
 ```yaml
 services:
