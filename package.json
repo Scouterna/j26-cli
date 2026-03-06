@@ -20,7 +20,7 @@
 		"j26": "./dist/bin/run.js"
 	},
 	"scripts": {
-		"dev": "node dist/bin/dev.js",
+		"dev": "npm run build && node dist/bin/dev.js",
 		"build": "tsc",
 		"typecheck": "tsc --noEmit",
 		"lint": "biome check",
