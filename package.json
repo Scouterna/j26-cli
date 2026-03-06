@@ -1,10 +1,16 @@
 {
-  "name": "j26-cli",
+  "name": "@scouterna/j26-cli",
   "version": "0.1.0",
   "description": "Local development environment CLI for J26 microservices",
   "author": "Scouterna",
   "license": "MIT",
-  "keywords": ["j26", "jamboree26", "cli", "microservices", "local-dev"],
+  "keywords": [
+    "j26",
+    "jamboree26",
+    "cli",
+    "microservices",
+    "local-dev"
+  ],
   "repository": "https://github.com/Scouterna/j26-cli",
   "type": "module",
   "bin": {
@@ -26,8 +32,11 @@
     "js-yaml": "^4.1.0"
   },
   "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
     "@types/js-yaml": "^4.0.9",
-    "@types/node": "^22.0.0",
+    "@types/node": "^24.0.0",
+    "semantic-release": "^24.2.9",
     "typescript": "^5.6.0"
   },
   "engines": {
