@@ -1,3 +1,10 @@
+## [1.1.4](https://github.com/Scouterna/j26-cli/compare/v1.1.3...v1.1.4) (2026-03-14)
+
+
+### Bug Fixes
+
+* incorrect path ([f2a9644](https://github.com/Scouterna/j26-cli/commit/f2a96441446d218aff26be03be639bef81f30f63))
+
 ## [1.1.3](https://github.com/Scouterna/j26-cli/compare/v1.1.2...v1.1.3) (2026-03-14)
 
 
