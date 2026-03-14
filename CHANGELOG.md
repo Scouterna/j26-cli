@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/Scouterna/j26-cli/compare/v1.1.2...v1.1.3) (2026-03-14)
+
+
+### Bug Fixes
+
+* add map to config ([c2750fd](https://github.com/Scouterna/j26-cli/commit/c2750fdb72630d101027207bd87156d10795f337))
+
 ## [1.1.2](https://github.com/Scouterna/j26-cli/compare/v1.1.1...v1.1.2) (2026-03-06)
 
 
