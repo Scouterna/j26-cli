@@ -1,3 +1,10 @@
+## [1.1.5](https://github.com/Scouterna/j26-cli/compare/v1.1.4...v1.1.5) (2026-03-22)
+
+
+### Bug Fixes
+
+* disable path rewrite for map ([ad165ce](https://github.com/Scouterna/j26-cli/commit/ad165ce806d1a17bb511f4299e814af54671f046))
+
 ## [1.1.4](https://github.com/Scouterna/j26-cli/compare/v1.1.3...v1.1.4) (2026-03-14)
 
 

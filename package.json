@@ -1,6 +1,6 @@
 {
 	"name": "@scouterna/j26-cli",
-	"version": "1.1.4",
+	"version": "1.1.5",
 	"description": "Local development environment CLI for J26 microservices",
 	"author": "Scouterna",
 	"license": "MIT",
