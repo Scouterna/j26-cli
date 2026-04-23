@@ -12,7 +12,7 @@ Sets up a full local dev environment by generating a [Caddy](https://caddyserver
 ## Installation
 
 ```sh
-npm install -g @scouterna/j26-cli
+npm install -g @scouterna/j26-cli@latest
 ```
 
 ## Commands
