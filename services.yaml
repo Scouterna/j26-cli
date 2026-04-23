@@ -44,5 +44,5 @@ services:
     path: /
     cloudUrl: https://app.dev.j26.se/
     dockerImage: ghcr.io/scouterna/j26-app:latest
-    port: 3000
+    port: 80
     rewritePath: false
