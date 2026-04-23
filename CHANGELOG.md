@@ -1,3 +1,10 @@
+## [1.1.6](https://github.com/Scouterna/j26-cli/compare/v1.1.5...v1.1.6) (2026-04-23)
+
+
+### Bug Fixes
+
+* update j26-app port ([086c952](https://github.com/Scouterna/j26-cli/commit/086c952c59ad0bc7110302f1314d3cc76ad836ed))
+
 ## [1.1.5](https://github.com/Scouterna/j26-cli/compare/v1.1.4...v1.1.5) (2026-03-22)
 
 
