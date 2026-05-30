@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/Scouterna/j26-cli/compare/v1.2.0...v1.2.1) (2026-05-30)
+
+
+### Bug Fixes
+
+* don't rewrite path for notifications ([856da4d](https://github.com/Scouterna/j26-cli/commit/856da4dc8d83c8e8e25f66fa0dd30ea8074163f0))
+
 # [1.2.0](https://github.com/Scouterna/j26-cli/compare/v1.1.6...v1.2.0) (2026-05-30)
 
 
