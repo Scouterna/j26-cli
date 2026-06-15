@@ -1,3 +1,10 @@
+## [1.2.2](https://github.com/Scouterna/j26-cli/compare/v1.2.1...v1.2.2) (2026-06-15)
+
+
+### Bug Fixes
+
+* change notifications URL ([8207b83](https://github.com/Scouterna/j26-cli/commit/8207b83f7b88cb63f6f080fb6004f687b9341eb8))
+
 ## [1.2.1](https://github.com/Scouterna/j26-cli/compare/v1.2.0...v1.2.1) (2026-05-30)
 
 
