@@ -1,3 +1,10 @@
+## [1.2.3](https://github.com/Scouterna/j26-cli/compare/v1.2.2...v1.2.3) (2026-07-02)
+
+
+### Bug Fixes
+
+* add booking ([c05f159](https://github.com/Scouterna/j26-cli/commit/c05f15960a5f34776f2dc47dfbf1a8dba10349b9))
+
 ## [1.2.2](https://github.com/Scouterna/j26-cli/compare/v1.2.1...v1.2.2) (2026-06-15)
 
 
